@@ -1,6 +1,6 @@
 # Maze Craze Algorithm
 
-The algorithm from the Atari 2600 game [Maze Craze](https://en.wikipedia.org/wiki/Maze_Craze),
+The maze generation algorithm from the Atari 2600 game [Maze Craze](https://en.wikipedia.org/wiki/Maze_Craze),
 reverse-engineered and rewritten in Python. Maze Craze was developed by Rick Maurer.
 
 Walgrey used this to make a TAS of the game in 00:05.39:
@@ -12,7 +12,7 @@ Walgrey used this to make a TAS of the game in 00:05.39:
 * **mazecraze.py** - The main python script. Contains the algorithm and some utility subcommands.
 * **dumpmazes.lua** - A BizHawk script for dumping all possible mazes from the game.
 * **mazes.bin** - Precomputed output from dumpmazes.lua so you don't need to run it yourself.
-  Mainly useful for verifying the correctness of the code using the `check` command.
+  Mainly useful for verifying the correctness of the code using the `check` subcommand.
 
 ## Usage
 
